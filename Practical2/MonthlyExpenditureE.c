@@ -1,5 +1,5 @@
 /*Print monthly expenditure 
-Practical 2, Part 2 (d) 
+Practical 2, Part 2 (e) 
 @Nishchal Ranjitkar
 */
 
@@ -9,9 +9,10 @@ int main(){
     float foodExpenses;     
     float leisureExpenses;
     float clothesExpenses;
-    float accomodationExpenses;
     float travelExpenses;
     float totalSpent;                   
+
+    const int accomodation= 500;
 
     printf("Enter food expenses: ");
     scanf("%f", &foodExpenses);
@@ -19,12 +20,10 @@ int main(){
     scanf("%f", &leisureExpenses);
     printf("Enter clothes expenses: ");
     scanf("%f", &clothesExpenses);
-    printf("Enter accomodation expenses: ");
-    scanf("%f", &accomodationExpenses);
     printf("Enter travel expenses: ");
     scanf("%f", &travelExpenses);
     
-    totalSpent= foodExpenses+ leisureExpenses+ clothesExpenses+ travelExpenses+ accomodationExpenses; 
+    totalSpent= foodExpenses+ leisureExpenses+ clothesExpenses+ travelExpenses+ accomodation; 
     printf("The total expenditure this month was £%.2f\n\n", totalSpent);  
 
     return 0;
