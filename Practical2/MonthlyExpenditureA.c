@@ -1,3 +1,8 @@
+/*Print monthly expenditure 
+Practical 2, Part 2 (a) 
+@Nishchal Ranjitkar
+*/
+
 #include<stdio.h>
 
 int main(){
